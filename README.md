@@ -1,3 +1,6 @@
+# PendingCameraTech
+PendingCameraTech is a fork of CameraTech with one differnce - it uses the PendingSound resource for audio rather that Interact Sound.
+
 # CameraTech
 CameraTech is a resource for FiveM by Albo1125 that provides for an indepth Automatic Number Plate Recognition (ANPR/ALPR) system simulation.
 
