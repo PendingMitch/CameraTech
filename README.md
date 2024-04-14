@@ -41,15 +41,5 @@ You can add as many entries to the root array as you like. If a vehicle model ap
 * /setplateinfo PLATE;INFO - Adds ANPR markers (INFO) for the specified plate. Leave INFO blank to remove markers. Example: /setplateinfo AB12CDE;STOLEN
 * /setvehinfo INFO - Adds ANPR markers (INFO) for the plate of the vehicle you're currently in. Leave INFO blank to remove markers. Example: /setvehinfo STOLEN
 
-## Improvements & Licencing
-Please view the license. Improvements and new feature additions are very welcome, please feel free to create a pull request. As a guideline, please do not release separate versions with minor modifications, but contribute to this repository directly. However, if you really do wish to release modified versions of my work, permission & proper credit is always required and you should always link back to this original source and respect the licence.
-
-## Libraries used (many thanks to their authors)
-* [CitizenFX.Core.Client](https://github.com/citizenfx/fivem)
-* [Newtonsoft.Json](https://www.newtonsoft.com/json)
-
 ## Video
 [Click here (please note setup instructions have changed slightly)](https://youtu.be/LLJ7NG_gUE4)
-
-## Screenshots
-![CameraTech](https://i.imgur.com/KlhjVos.jpg)
