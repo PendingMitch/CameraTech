@@ -29,7 +29,7 @@ namespace CameraTech
 
         public CameraTech()
         {
-            Debug.WriteLine("CameraTech by Albo1125.");
+            Debug.WriteLine("CameraTech by Albo1125. Edited by PendingMitch for PendingSound.");
 
             TriggerEvent("chat:addSuggestion", "/anpr", "Toggles the ANPR interface");
             TriggerEvent("chat:addSuggestion", "/vehanpr", "Toggles the vehicle ANPR system");
@@ -373,11 +373,11 @@ namespace CameraTech
         {
             if (inVehicle)
             {
-                PlayInteractSound("VehicleANPR", 0.7f);
+                TriggerEvent("PendingSound:PlaySound", "sounds/VehicleANPR.ogg", "PendingCameraTech",  0.7f);
             }
             else
             {
-                PlayInteractSound("FixedANPR", 0.7f);
+                TriggerEvent("PendingSound:PlaySound", "sounds/FixedANPR.ogg", "PendingCameraTech", 0.7f);
                 //API.PlaySound(-1, "TIMER_STOP", "HUD_MINI_GAME_SOUNDSET", false, 0, false);
             }
         }
