@@ -203,7 +203,7 @@ namespace CameraTech
             });
 
             string resourceName = API.GetCurrentResourceName();
-            string anprvehs = API.LoadResourceFile(resourceName, "anprvehicles.json");
+            string anprvehs = Exports["PendingVS"].GetANPRInfo();
 
             if (!string.IsNullOrWhiteSpace(anprvehs))
             {
